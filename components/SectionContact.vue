@@ -32,7 +32,7 @@
                     Aviso de privacidad
                 </p>
             </div>
-
+  
         </div>
     </section>
 </template>
