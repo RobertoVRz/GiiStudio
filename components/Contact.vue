@@ -1,5 +1,5 @@
 <template>
-    <section class="h-screen bg-black">
+    <section class="h-screen bg-dorado">
         <div class="h-screen flex flex-row justify-around items-center text-white">
             <div>
                 <h1>
