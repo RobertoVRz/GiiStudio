@@ -17,15 +17,15 @@
         <tr class="border border-white">
             <td class="border border-white relative">
                 <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">Texto</div>
+                <div class="text-dorado text-center">texto mas largo</div>
             </td>
             <td class="border border-white relative">
                 <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">Texto</div>
+                <div class="text-dorado text-center">Texto mas largo</div>
             </td>
             <td class="border border-white relative">
                 <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">Texto</div>
+                <div class="text-dorado text-center">Texto mas largo</div>
             </td>
         </tr>
         <tr class="border border-white">

@@ -33,7 +33,9 @@
 .SeccVideo {
     height: 100%;
     &__optionsDiv {
-        width: 400px;
+        @include screen(tablet) {
+            width: 400px;
+        }
     }
     &__container {
         width: 100vw;

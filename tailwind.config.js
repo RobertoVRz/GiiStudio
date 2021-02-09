@@ -22,6 +22,22 @@ module.exports = {
         xxl: '1400px',
       },
     },
+    animation: {
+      'spin': 'spin 10s linear infinite',
+      'bounce': 'bounce 10s linear infinite'
+     },/*
+     keyframes:{
+      bounce: {
+        '0%, 100%': {
+          transform: 'translateY(-50%) rotate(360deg)',
+          animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)'
+        },
+        '50%': {
+          transform: 'translateY(0) rotate(0deg)',
+          animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)'
+        }
+      }
+     },*/
     container: {
       center: true,
       padding: '1rem',
