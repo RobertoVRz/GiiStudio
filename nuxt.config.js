@@ -20,7 +20,7 @@ export default {
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
-    css: [],
+    css: ["@/assets/sass/main.scss"],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [],
@@ -34,7 +34,7 @@ export default {
         "@nuxtjs/tailwindcss"
     ],
     styleResources: {
-        scss: ["./assets/sass/main.scss"]
+        scss: ["@/assets/sass/main.scss"]
     },
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [

@@ -6,9 +6,9 @@
 </template>
 
 <style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500&display=swap");
 html {
-    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-        "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Spartan", sans-serif;
     font-size: 16px;
     word-spacing: 1px;
     -ms-text-size-adjust: 100%;
@@ -16,6 +16,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
+    
 }
 
 *,
@@ -23,5 +24,7 @@ html {
 *::after {
     box-sizing: border-box;
     margin: 0;
+    
 }
+
 </style>

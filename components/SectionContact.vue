@@ -1,6 +1,6 @@
 <template>
     <section class="h-screen bg-dorado">
-        <div class="h-screen flex flex-row justify-around items-center text-white">
+        <div class="h-screen flex flex-row justify-around items-center text-white" id="contacto">
             <div>
                 <h1>
                     TALK
@@ -20,9 +20,9 @@
                 <a href="#">234567</a>
             </div>
         </div>
-        <div class="flex flex-row justify-between px-5">
+        <div class="bg-black h-10 text-white flex flex-row items-center justify-between px-5">
             <p>
-                Gii Studio 2021
+                 Gii Studio® 2021
             </p>
             <div class="flex flex-row ">
                 <p class="mr-5">
