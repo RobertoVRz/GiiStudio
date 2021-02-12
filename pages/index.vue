@@ -5,7 +5,7 @@
         <SectionVideo />
         <SectionFoto />
         <SectionServicios />
-        <!--SectionCrew /-->
+        <SectionCrew />
         <SectionContact />
     </div>
 </template>
