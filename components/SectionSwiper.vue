@@ -5,39 +5,15 @@
         <div class="w-screen h-auto">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide flex justify-center">
+                    <div
+                        v-for="img in carousel"
+                        :key="img"
+                        class="swiper-slide flex justify-center"
+                    >
                         <img
                             class="SectionSwiper__img"
-                            src="~/assets/images/carousel/1.jpg"
-                            alt="Tiger Image"
-                        />
-                    </div>
-                    <div class="swiper-slide flex justify-center">
-                        <img
-                            class="SectionSwiper__img"
-                            src="~/assets/images/carousel/2.jpg"
-                            alt="Tiger Image"
-                        />
-                    </div>
-                    <div class="swiper-slide flex justify-center">
-                        <img
-                            class="SectionSwiper__img"
-                            src="~/assets/images/carousel/3.jpg"
-                            alt="Tiger Image"
-                        />
-                    </div>
-                    <div class="swiper-slide flex justify-center">
-                        <img
-                            class="SectionSwiper__img"
-                            src="~/assets/images/carousel/4.jpg"
-                            alt="Tiger Image"
-                        />
-                    </div>
-                    <div class="swiper-slide flex justify-center">
-                        <img
-                            class="SectionSwiper__img"
-                            src="~/assets/images/carousel/5.jpg"
-                            alt="Tiger Image"
+                            :src="img"
+                            alt="Carousel Image"
                         />
                     </div>
                 </div>
@@ -50,9 +26,20 @@
 <script>
 import Swiper from "swiper/bundle";
 import "swiper/swiper-bundle.css";
+import img1 from "~/assets/images/carousel/1.jpg";
+import img2 from "~/assets/images/carousel/2.jpg";
+import img3 from "~/assets/images/carousel/3.jpg";
+import img4 from "~/assets/images/carousel/4.jpg";
+import img5 from "~/assets/images/carousel/5.jpg";
+
 export default {
     mounted() {
         this.slider();
+    },
+    data() {
+        return {
+            carousel: [img1, img2, img3, img4, img5]
+        };
     },
     methods: {
         slider() {
