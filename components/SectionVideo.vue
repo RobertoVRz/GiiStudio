@@ -14,8 +14,11 @@
                     Comerciales
                 </li>
                 <li class="cursor-pointer" @click="changeVideo(3)">Accion</li>
-                <li class="cursor-pointer" @click="changeVideo(4)">Video</li>
-                <li class="cursor-pointer" @click="changeVideo(5)">Video</li>
+                <li class="cursor-pointer" @click="changeVideo(4)">Mapping</li>
+                <li class="cursor-pointer" @click="changeVideo(5)">Propuesta</li>
+                <li class="cursor-pointer" @click="changeVideo(6)">Reflejos</li>
+                <li class="cursor-pointer" @click="changeVideo(7)">Mi Pelicula 2</li>
+                <li class="cursor-pointer" @click="changeVideo(8)">Reel Comedia Tele</li>
             </ul>
         </div>
         <div class="SeccVideo__container flex justify-start">
@@ -51,11 +54,20 @@ export default {
                     this.videoSrc = "https://player.vimeo.com/video/388956794";
                     break;
                 case 4:
-                    this.videoSrc = "https://player.vimeo.com/video/323344032";
+                    this.videoSrc = "https://player.vimeo.com/video/510335403";
                     break;
                 case 5:
-                    this.videoSrc = "https://player.vimeo.com/video/323344032";
+                    this.videoSrc = "https://player.vimeo.com/video/510323195";
                     break;
+                case 6:
+                     this.videoSrc = "https://player.vimeo.com/video/510046004";
+                    break;       
+                case 7:
+                     this.videoSrc = "https://player.vimeo.com/video/510033581";
+                    break;     
+                case 8:
+                     this.videoSrc = "https://player.vimeo.com/video/489103413";
+                    break;                                                         
             }
         }
     }
