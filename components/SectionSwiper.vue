@@ -59,7 +59,7 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "@/assets/sass/main.scss";
+@import "@/assets/sass/app.scss";
 .SectionSwiper {
     &__title {
         font-size: 3rem;

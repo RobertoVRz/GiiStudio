@@ -31,7 +31,7 @@
 </template>
 
 <style lang="scss">
-@import "@/assets/sass/main.scss";
+@import "@/assets/sass/app.scss";
 .SectionProyect {
     height: 100%;
     width: 100vw;
