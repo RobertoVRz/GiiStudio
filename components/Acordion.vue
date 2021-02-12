@@ -1,12 +1,12 @@
 <template>
     <div class="Acordion">
-        <div class="Acordion__header flex flex-col items-center">
-            <h1 :class="active == true ? 'Acordion--active' : ''">
+        <div class="Acordion__header flex flex-col items-start">
+            <h1 class="Acordion__title">
                 {{ name }}
             </h1>
             <transition name="slide-fade">
                 <div class="Acordion__body mb-3" v-if="active">
-                    <p class="Acordion__text mt-3">{{ puesto }}</p>
+                    <p>{{ puesto }}</p>
                     <p
                         class="Acordion__text mt-3"
                         v-html="bio"
@@ -56,34 +56,18 @@ export default {
 <style lang="scss">
 @import "@/assets/sass/app.scss";
 .Acordion {
+    @include screen(tablet) {
+        width: 576px;
+    }
     &__title {
-        font-family: Myriad Pro;
+        //font-family: Myriad Pro;
         font-style: normal;
         font-weight: normal;
         font-size: 23px;
         line-height: 28px;
-    }
-    &--active {
-        font-family: Myriad Pro;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 36px;
-        color: white;
-        @include screen(landscape) {
-            font-size: 35px;
-            line-height: 42px;
-        }
-    }
-    &--activeText {
-        font-family: Myriad Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 30px;
-        color: white;
-        @include screen(landscape) {
-            font-size: 18px;
+        @include screen(tablet) {
+            font-size: 36px;
+            line-height: 40px;
         }
     }
     &--hide {
@@ -92,7 +76,7 @@ export default {
     }
     .slide-fade-enter-active,
     .slide-fade-leave-active {
-        transition: all 0.18s ease;
+        transition: all 0.3s ease;
     }
     .slide-fade-enter,
     .slide-fade-leave-to {
