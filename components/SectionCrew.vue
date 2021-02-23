@@ -3,7 +3,11 @@
         <h1>/ Crew</h1>
         <div class="flex flex-row relative">
             <ul>
-                <li v-for="(miembro, index) in biografias" :key="index">
+                <li
+                    class="flex flex-col md:flex-row "
+                    v-for="(miembro, index) in biografias"
+                    :key="index"
+                >
                     <Acordion
                         class="cursor-pointer mt-5"
                         @click.native="open(index)"
@@ -16,7 +20,7 @@
                         v-if="index == activeValue ? true : false"
                         :src="miembro.img"
                         alt="crew Member"
-                        class="Crew__img absolute"
+                        class="Crew__img md:absolute"
                     />
                 </li>
             </ul>
@@ -170,10 +174,18 @@ export default {
 @import "@/assets/sass/app.scss";
 .Crew {
     height: 100%;
+    @include screen(tablet) {
+        height: 1400px;
+    }
+
     &__img {
-        right: 10rem;
-        margin-top: -35rem;
-        width: 500px;
+        @include screen(tablet) {
+            right: 5rem;
+            //margin-top: -5rem;
+            width: 500px;
+            height: 600px;
+            object-fit: cover;
+        }
     }
 }
 </style>

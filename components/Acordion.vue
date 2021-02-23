@@ -1,11 +1,18 @@
 <template>
     <div class="Acordion">
-        <div class="Acordion__header flex flex-col items-start">
-            <h1 class="Acordion__title">
+        <div class="Acordion__header flex flex-col items-start ml-20">
+            <h1
+                class="Acordion__title"
+                :class="
+                    active !== true
+                        ? 'Acordion__title--noActive'
+                        : 'Acordion--active my-5'
+                "
+            >
                 {{ name }}
             </h1>
             <transition name="slide-fade">
-                <div class="Acordion__body mb-3" v-if="active">
+                <div class="Acordion__body ml-5 mb-3" v-if="active">
                     <p>{{ puesto }}</p>
                     <p
                         class="Acordion__text mt-3"
@@ -69,6 +76,29 @@ export default {
             font-size: 36px;
             line-height: 40px;
         }
+        &--noActive {
+            font-size: 20px;
+            line-height: 15px;
+            margin-left: -3rem;
+        }
+        &--noActive:hover {
+            letter-spacing: 1px;
+            transition: 500ms;
+        }
+    }
+    &__title::after {
+        content: "";
+        width: 0px;
+        height: 1px;
+        display: block;
+        background: white;
+        transition: 500ms;
+    }
+    &__title:hover::after {
+        width: 100%;
+    }
+    &--active::after {
+        width: 100%;
     }
     &--hide {
         //transform: rotate(180deg);
