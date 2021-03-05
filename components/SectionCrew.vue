@@ -66,7 +66,6 @@ import charlie from "../assets/images/crew/charly.jpg";
 import gerardo from "../assets/images/crew/gerardo.jpg";
 import gisel from "../assets/images/crew/gisel.jpg";
 import jime from "../assets/images/crew/jime.jpg";
-import meli from "../assets/images/crew/meli.jpg";
 import rolo from "../assets/images/crew/rolo.jpg";
 import rotz from "../assets/images/crew/rotz.jpg";
 import santi from "../assets/images/crew/santi.jpg";
