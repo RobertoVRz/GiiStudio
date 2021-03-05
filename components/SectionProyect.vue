@@ -1,6 +1,6 @@
 <template>
     <section
-        class="SectionProyect flex flex-col items-center bg-black relative md:py-20"
+        class="SectionProyect flex flex-col items-center bg-black relative md:py-40"
         id="proyecto"
     >
         <img
@@ -10,15 +10,22 @@
         <div
             class="flex flex-col items-center justify-around w-screen md:flex-row"
         >
-            <div class="SectionProyect__textDiv mt-20 md:mt-0 text-white">
+            <div class="SectionProyect__textDiv mt-20  text-white">
                 <p>/Gii Studio</p>
                 <br />
                 <p class="pl-5">
-                    Breve descripción todas estas borrascas que nos suceden son
-                    señales de que presto ha de serenar el tiempo y han de
-                    sucedernos bien las cosas; porque no es posible que el mal
-                    ni el bien sean durables, y de aquí se sigue que, habiendo
-                    durado mucho el mal, el bien está ya cerca.
+                    Somos una casa productora contituída por un equipo de
+                    especialistas encargado de crear experiencias únicas e
+                    inigualables. Para nosotros es importante que los
+                    espectadores sean parte de la historia que queremos contar.
+                    <br /><br />
+                    Creamos ambientes favorables y de calidad en cada escena.
+                    Por medio de tecnología avanzada, buscamos resaltar las
+                    imágenes, haciendo sincronía con audio e iluminación.
+                    <br /><br />
+                    Tenemos como objetivo sobrepasar lo convencional, cubriendo
+                    de manera creativa, profesional y coherente todas las
+                    necesidades de nuestros clientes.
                 </p>
             </div>
             <img

@@ -16,6 +16,7 @@
             </h1>
             <div class="Servicios__list text-white flex flex-col md:flex-row">
                 <ul class="Servicios__list__item">
+                    <li class="Servicios__list__item__titulo text-dorado">Video Digital</li>
                     <li>• Largometrajes</li>
                     <li>• Cortometrajes</li>
                     <li>• Documentales</li>
@@ -29,16 +30,8 @@
                     <li>• Eventos especiales</li>
                 </ul>
 
-                <ul class="Servicios__list__item mt-10">
-                    <li>• Social</li>
-                    <li>• Fashion</li>
-                    <li>• Artistica</li>
-                    <li>• Producto</li>
-                    <li>• Publicitaria</li>
-                    <li>• Documental</li>
-                </ul>
-
-                <ul class="Servicios__list__item mt-20">
+                <ul class="Servicios__list__item">
+                    <li class="Servicios__list__item__titulo text-dorado">Audio</li>
                     <li>• Mezcla</li>
                     <li>• Mastering</li>
                     <li>• Grabacion de discos</li>
@@ -48,6 +41,16 @@
                     <li>• Sonido directo</li>
                     <li>• Jingles para radio y TV</li>
                     <li>• Montaje musical para promociones</li>
+                </ul>
+
+                <ul class="Servicios__list__item">
+                    <li class="Servicios__list__item__titulo text-dorado">Fotografía</li>
+                    <li>• Social</li>
+                    <li>• Fashion</li>
+                    <li>• Artistica</li>
+                    <li>• Producto</li>
+                    <li>• Publicitaria</li>
+                    <li>• Documental</li>
                 </ul>
             </div>
         </div>
@@ -66,11 +69,21 @@
                     class="Servicios__arrow absolute animate-right ml-5"
                 />
             </div>
-            <p class="Servicios__moreInfo__text">Más info</p>
+            <p @click="ir('/Servicios')" class="Servicios__moreInfo__text">
+                Más info
+            </p>
         </div>
     </section>
 </template>
-
+<script>
+export default {
+    methods: {
+        ir(destino) {
+            this.$router.push(destino);
+        }
+    }
+};
+</script>
 <style lang="scss">
 @import "@/assets/sass/app.scss";
 .Servicios {
@@ -96,8 +109,16 @@
         }
     }
     &__list__item {
-        width: 200px;
+        margin-top: 2rem;
+        width: 250px;
         line-height: 32px;
+        @include screen(tablet) {
+            margin-top: 3rem;
+        }
+        &__titulo {
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
     }
     &__arrow {
         margin-top: -1.4rem;

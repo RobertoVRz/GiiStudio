@@ -1,6 +1,6 @@
 <template>
     <section class="Foto bg-black" id="foto">
-        <h1 class="text-white">/ Foto</h1>
+        <h1 class="text-white ml-10 mb-10">/ Foto</h1>
         <masonry
             class="px-10 relative"
             :cols="{ default: 2, 400: 1 }"
@@ -24,7 +24,9 @@
                         class="Foto__arrow absolute animate-right ml-5"
                     />
                 </div>
-                <p class="Foto__moreInfo__text">Más info</p>
+                <p @click="ir('/Fotos')" class="Foto__moreInfo__text">
+                    Más info
+                </p>
             </div>
         </masonry>
     </section>
@@ -52,6 +54,11 @@ export default {
                 pinup
             ]
         };
+    },
+    methods: {
+        ir(destino) {
+            this.$router.push(destino);
+        }
     }
 };
 </script>

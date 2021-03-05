@@ -2,44 +2,129 @@
     <table class="Table border border-white">
         <tr class="border border-white">
             <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">Texto</div>
+                <div class="Table__title text-white absolute">/ Instagram</div>
+                <div class="text-dorado text-center">
+                    <a
+                        href="https://www.instagram.com/giistudio/"
+                        target="_blank"
+                        >@giistudio</a
+                    >
+                </div>
             </td>
             <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">Texto</div>
+                <div class="Table__title text-white absolute">/ Facebook</div>
+                <div class="text-dorado text-center">
+                    <a
+                        href="https://www.instagram.com/giistudio/"
+                        target="_blank"
+                        >@giistudiofilms</a
+                    >
+                </div>
             </td>
             <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">Texto</div>
+                <div class="Table__title text-white absolute">/ Youtube</div>
+                <div class="text-dorado text-center">
+                    <a
+                        href="https://www.youtube.com/channel/UCH2efQvUmfevprqK0VK-AVg"
+                        target="_blank"
+                        >@giistudio</a
+                    >
+                </div>
             </td>
         </tr>
         <tr class="border border-white">
             <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">texto mas largo</div>
+                <div class="Table__title text-white absolute">/ Vimeo</div>
+                <div class="text-dorado text-center">
+                    <a href="https://vimeo.com/giistudio" target="_blank"
+                        >@giistudio</a
+                    >
+                </div>
             </td>
             <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">Texto mas largo</div>
+                <div class="Table__title text-white absolute">/ Flicker</div>
+                <div class="text-dorado text-center">
+                    <a
+                        href="https://www.flickr.com/photos/giistudio/"
+                        target="_blank"
+                        >@giistudio</a
+                    >
+                </div>
             </td>
             <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">Texto mas largo</div>
+                <div class="Table__title text-white absolute">/ Vogue</div>
+                <div class="text-dorado text-center">
+                    <a
+                        href="https://www.vogue.it/photovogue/portfolio/?id=162248"
+                        target="_blank"
+                        >@giistudio</a
+                    >
+                </div>
             </td>
         </tr>
         <tr class="border border-white">
             <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">Texto</div>
+                <div class="Table__title text-white absolute">/ Gii Store</div>
+                <div class="text-dorado text-center">
+                    <a
+                        href="https://teespring.com/stores/gii-store"
+                        target="_blank"
+                        >@gii-store</a
+                    >
+                </div>
             </td>
             <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">Texto</div>
+                <div class="Table__title text-white absolute">
+                    / Gii Store MX
+                </div>
+                <div class="text-dorado text-center">
+                    <a
+                        href="https://www.instagram.com/giistoremx/"
+                        target="_blank"
+                        >@giistoremx</a
+                    >
+                </div>
             </td>
             <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/titulo</div>
-                <div class="text-dorado text-center">Texto</div>
+                <div class="Table__title text-white absolute">/Flick</div>
+                <div class="text-dorado text-center">
+                    <a
+                        href="https://www.flickr.com/photos/giistudio/albums/72157693528518561"
+                        >@giistudio</a
+                    >
+                </div>
+            </td>
+        </tr>
+        <tr class="border border-white">
+            <td class="border border-white relative">
+                <div class="Table__title text-white absolute">/ Instinto</div>
+                <div class="text-dorado text-center">
+                    <a
+                        href="https://open.spotify.com/track/3EnA1E8ZXgQZyQyJhPVvP3?si=wok9-23KQ1i8UqBGr5OAjg"
+                        target="_blank"
+                        >Spotify</a
+                    >
+                </div>
+            </td>
+            <td class="border border-white relative">
+                <div class="Table__title text-white absolute">
+                    / Instinto
+                </div>
+                <div class="text-dorado text-center">
+                    <a
+                        href="https://music.apple.com/mx/album/instinto/1553072203?i=1553072206&amp;l=en"
+                        target="_blank"
+                        >Itunes</a
+                    >
+                </div>
+            </td>
+            <td class="border border-white relative">
+                <div class="Table__title text-white absolute">/Instinto</div>
+                <div class="text-dorado text-center">
+                    <a href="https://youtu.be/F5xArRmn2dc" target="_blank"
+                        >Youtube</a
+                    >
+                </div>
             </td>
         </tr>
     </table>

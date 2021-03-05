@@ -1,9 +1,9 @@
 <template>
     <section
-        class="SectionSwiper h-screen bg-black flex flex-col items-center justify-center"
+        class="SectionSwiper h-screen bg-black flex flex-col items-center justify-center pt-40"
     >
         <div class="w-screen h-auto">
-            <div class="swiper-container">
+            <div class="swiper-container ">
                 <div class="swiper-wrapper">
                     <div
                         v-for="img in carousel"

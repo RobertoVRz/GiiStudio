@@ -1,6 +1,11 @@
 <template>
-    <section class="Crew bg-black text-white" id="crew">
+    <section class="Crew bg-black text-white relative" id="crew">
         <h1>/ Crew</h1>
+         <img
+            src="../assets/images/icons/round.png"
+            alt="circle"
+            class="Crew__bgSphere absolute animate-spin"
+        />
         <div class="flex flex-row relative">
             <ul>
                 <li
@@ -60,7 +65,7 @@ export default {
                     puesto: "Director de series y películas ",
                     bio:
                         "Cursó la Licenciatura en Administración de Empresas egresado de la Universidad Central y Bibliotecología en la Universidad Javeriana. <br /><br /> Es Director de Cine Colombiano. Entre sus producciones más destacadas se encuentran: De Brutas Nada (2019), Rosario Tijeras 3 (2019), La Piloto l y ll (2017), El Chivo (2014) La Bella y las Bestias (2018), Amar y muerte (2018), La viuda Negra ll (2016), La Esquina del Diablo (2018), Salvador de Mujeres (2010). <br /><br /> Galardonado en 2019 con el premio a mejor director por la serie Amar a Muerte y nominado en los Premios TVyNovelas México como “Mejor Director” por la serie La Piloto 2. <br /><br /> Ha participado en producciones de importantes, empresas y canales como Sony Pictures, Univisión, Televisa, Azteca y Lemon Studios. ",
-                    img: Gii
+                    img: rolo
                 },
                 {
                     name: "Santiago Barreiro ",
@@ -151,7 +156,7 @@ export default {
                     puesto: "Diseñadora Gráfica",
                     bio:
                         "Cursó la Licenciatura en Comunicación Visual y con una especialidad en visualización creativa por la Universidad de la Comunicación. Cursó los Talleres de Pintura del Cuerpo Humano (ARSCITE) y Pintura del Cuerpo Humano (Talleres S22)<br><br>Diseña publicaciones, logotipos, gráficos y posters para cortometrajes, redes sociales, videos y podcast. Ha colaborado con Ilustraciones para la portada del PodCast Queerit.<br><br>Una de sus pinturas se expuso en el museo Art Gallery 21 de Londres y 2 de sus ilustraciones han sido publicadas en la revista “Pata de Mono”.<br><br>Galardonada por su pieza artística en Benetton “Tejiendo futuros de quién eres”",
-                    img: Gii
+                    img: jime
                 },
                 {
                     name: "Gisel Casas",
@@ -177,13 +182,17 @@ export default {
     @include screen(tablet) {
         height: 1400px;
     }
+    &__bgSphere{
+        right: 1rem;
+        top: 0;
+    }
 
     &__img {
         @include screen(tablet) {
             right: 5rem;
             //margin-top: -5rem;
-            width: 500px;
-            height: 600px;
+            width: 400px;
+            height: 500px;
             object-fit: cover;
         }
     }
