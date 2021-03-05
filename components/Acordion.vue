@@ -1,6 +1,6 @@
 <template>
-    <div class="Acordion">
-        <div class="Acordion__header flex flex-col items-start ml-20">
+    <div class="Acordion pr-3">
+        <div class="Acordion__header flex flex-col items-start ml-10">
             <h1
                 class="Acordion__title"
                 :class="
@@ -79,7 +79,7 @@ export default {
         &--noActive {
             font-size: 20px;
             line-height: 15px;
-            margin-left: -3rem;
+            margin-left: -1rem;
         }
         &--noActive:hover {
             letter-spacing: 1px;

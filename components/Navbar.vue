@@ -14,24 +14,7 @@
                 class="Navbar__link text-white"
                 >/ Gii Studio</a
             >
-            <a
-                href="#crew"
-                v-smooth-scroll="{ duration: 2000 }"
-                class="Navbar__link text-white"
-                >/ Crew</a
-            >
-            <a
-                href="#servicios"
-                v-smooth-scroll="{ duration: 2000 }"
-                class="Navbar__link text-white"
-                >/ Servicios</a
-            >
-            <a
-                href="#foto"
-                v-smooth-scroll="{ duration: 2000 }"
-                class="Navbar__link text-white"
-                >/ Foto</a
-            >
+
             <a
                 href="#video"
                 v-smooth-scroll="{ duration: 2000 }"
@@ -39,6 +22,34 @@
                 >/ Video</a
             >
             <a
+                href="#foto"
+                v-smooth-scroll="{
+                    duration: 2000,
+                    offset: -100
+                }"
+                class="Navbar__link text-white"
+                >/ Foto</a
+            >
+            <a
+                href="#servicios"
+                v-smooth-scroll="{
+                    duration: 2000,
+                    offset: -100
+                }"
+                class="Navbar__link text-white"
+                >/ Servicios</a
+            >
+            <a
+                href="#crew"
+                v-smooth-scroll="{
+                    duration: 2000,
+                    offset: -100
+                }"
+                class="Navbar__link text-white"
+                >/ Crew</a
+            >
+
+            <!--a
                 href="#galeria"
                 v-smooth-scroll="{ duration: 2000 }"
                 class="Navbar__link text-white"
@@ -49,7 +60,7 @@
                 v-smooth-scroll="{ duration: 2000 }"
                 class="Navbar__link text-white"
                 >/ Gii Store</a
-            >
+            -->
             <a
                 href="#contacto"
                 v-smooth-scroll="{ duration: 2000 }"

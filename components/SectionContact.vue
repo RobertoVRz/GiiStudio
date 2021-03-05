@@ -1,39 +1,55 @@
 <template>
-    <section class="h-screen bg-dorado">
-        <div class="h-screen flex flex-row justify-around items-center text-white" id="contacto">
-            <div>
+    <section class="Contacto bg-dorado" id="contacto">
+        <div
+            class="Contacto__info flex md:flex-row flex-col justify-around items-center text-white"
+        >
+            <div class="text-center">
                 <h1>
-                    TALK
+                    Llámanos
                 </h1>
-                <a href="#">234567</a>
+                <a href="tel:+525531740768">553 174 0768</a>
             </div>
-            <div>
+
+            <div class="text-center">
                 <h1>
-                    MEET
+                    Escríbenos
                 </h1>
-                <a href="#">234567</a>
-            </div>
-            <div>
-                <h1>
-                    WRITE
-                </h1>
-                <a href="#">234567</a>
+                <a href="mailto: giistudioinfo@gmail.com">giistudioinfo@gmail.com</a>
             </div>
         </div>
-        <div class="bg-black h-10 text-white flex flex-row items-center justify-between px-5">
+        <div
+            class="Contacto__footer bg-black h-10 text-white flex flex-row items-center justify-between px-5"
+        >
             <p>
-                 Gii Studio® 2021
+                Gii Studio® 2021
             </p>
             <div class="flex flex-row ">
-                <p class="mr-5">
+                <p class="mr-1 md:mr-5">
                     Terminos y condiciones
                 </p>
                 <p>
                     Aviso de privacidad
                 </p>
             </div>
-  
         </div>
     </section>
 </template>
-<style lang="scss"></style>
+<style lang="scss">
+@import "@/assets/sass/app.scss";
+.Contacto {
+    height: 100%;
+    &__info {
+        height: 500px;
+        font-size: 20px;
+        @include screen(tablet) {
+            font-size: 2rem;
+        }
+    }
+    &__footer {
+        font-size: 10px;
+        @include screen(tablet) {
+            font-size: 1rem;
+        }
+    }
+}
+</style>

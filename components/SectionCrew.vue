@@ -1,12 +1,37 @@
 <template>
-    <section class="Crew bg-black text-white relative" id="crew">
-        <h1>/ Crew</h1>
-         <img
+    <section class="Crew bg-black text-white relative pb-10" id="crew">
+        <h1 class="ml-10 mb-10">/ Crew</h1>
+        <img
             src="../assets/images/icons/round.png"
             alt="circle"
             class="Crew__bgSphere absolute animate-spin"
         />
-        <div class="flex flex-row relative">
+        <div class="hidden md:flex Crew__desktop flex-row justify-around">
+            <ul>
+                <li
+                    class="Crew__list mt-2 cursor-pointer"
+                    v-for="(miembro, index) in biografias"
+                    :key="index"
+                    @click="select(miembro, index)"
+                    :class="
+                        index !== activeValue
+                            ? 'Crew__list--noActive'
+                            : 'Crew--active my-5'
+                    "
+                >
+                    {{ miembro.name }}
+                </li>
+            </ul>
+            <div class="flex flex-row justify-center items-center" v-if="info != null">
+                <div class="Crew__info">
+                    <p>{{ info.name }}</p>
+                    <p>{{ info.puesto }}</p>
+                    <p v-html="info.bio"></p>
+                </div>
+                <img class="Crew__img" :src="info.img" alt="crew Member" />
+            </div>
+        </div>
+        <div class="flex flex-row relative md:hidden">
             <ul>
                 <li
                     class="flex flex-col md:flex-row "
@@ -52,6 +77,7 @@ export default {
     data() {
         return {
             activeValue: null,
+            info: null,
             biografias: [
                 {
                     name: "Gii",
@@ -171,6 +197,10 @@ export default {
     methods: {
         open(index) {
             this.activeValue = index;
+        },
+        select(persona, index) {
+            this.info = persona;
+            this.activeValue = index;
         }
     }
 };
@@ -180,9 +210,9 @@ export default {
 .Crew {
     height: 100%;
     @include screen(tablet) {
-        height: 1400px;
+        height: 100%;
     }
-    &__bgSphere{
+    &__bgSphere {
         right: 1rem;
         top: 0;
     }
@@ -194,7 +224,41 @@ export default {
             width: 400px;
             height: 500px;
             object-fit: cover;
+            z-index: 5 !important;
         }
+    }
+    &__desktop {
+        z-index: 5 !important;
+    }
+    &__info {
+        width: 550px;
+        padding-right: 1rem;
+    }
+    &__list {
+        font-size: 1.5rem !important;
+        margin-top: 1.5rem !important;
+        &--noActive {
+            font-size: 20px;
+            line-height: 15px;
+        }
+        &--noActive:hover {
+            letter-spacing: 1px;
+            transition: 500ms;
+        }
+    }
+    &__list::after {
+        content: "";
+        width: 0px;
+        height: 1px;
+        display: block;
+        background: white;
+        transition: 500ms;
+    }
+    &__list:hover::after {
+        width: 100%;
+    }
+    &--active::after {
+        width: 100%;
     }
 }
 </style>

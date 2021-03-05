@@ -1,18 +1,18 @@
 <template>
-    <section class="Servicios w-screen bg-black relative">
+    <section class="Servicios w-screen bg-black relative" id="servicios">
         <img
             src="../assets/images/icons/circle.png"
             alt="circle"
             class="Servicios__bgCircle absolute animate-bounce"
         />
-        <h1 class="text-white Servicios__section ml-5 mb-10 md:ml-20">
+        <h1 class="text-white Servicios__section ml-5 mb-10 md:ml-10">
             /Servicios
         </h1>
         <div
             class="flex flex-col justify-between pl-10 pr-5 md:flex-row md:pl-20"
         >
             <h1 class="Servicios__title text-white">
-                PONER UNA FRASE O COPY BIEN CHIDORI
+                ESTOS SON ALGUNOS DE LOS <span class="text-dorado"> SERVICIOS </span> QUE OFRECEMOS
             </h1>
             <div class="Servicios__list text-white flex flex-col md:flex-row">
                 <ul class="Servicios__list__item">
@@ -102,7 +102,7 @@ export default {
         font-size: 30px;
         line-height: 35px;
         @include screen(tablet) {
-            font-size: 72px;
+            font-size: 55px;
             line-height: 87px;
             width: 443px;
             height: 574px;
