@@ -71,6 +71,8 @@ import rotz from "../assets/images/crew/rotz.jpg";
 import santi from "../assets/images/crew/santi.jpg";
 import serch from "../assets/images/crew/serch.jpg";
 import fer from "../assets/images/crew/Fer.jpg";
+import Riccardo from "../assets/images/crew/Riccardo.jpg";
+import Fe from "../assets/images/crew/Fe.png";
 
 export default {
     data() {
@@ -125,7 +127,7 @@ export default {
                     puesto: "Fotógrafo",
                     bio:
                         "Cursó la carrera de Cine y fotografía en el Centro de Capacitación Cinematográfica. Se ha especializado en film, cine, impresión de imágenes por métodos tradicionales y fine art printer.<br><br>Parte de su obra “Still Photographer” se ha impreso en revistas como: Im not perfect Zine (Portugal), RGSP Magazine (Barcelona), Nhüdes Magazine (Alemania), Nart Magazine (USA) y Vogue (Italia). Esta obra también fue parte de exposiciones individuales y colectivas en CDMX, Veracruz y Londres.",
-                    img: Gii
+                    img: Riccardo
                 },
                 {
                     name: "César",
@@ -160,7 +162,7 @@ export default {
                     puesto: "Productor musical",
                     bio:
                         "Especialista en producción musical, teatro e ingeniería electrónica. Obtuvo una beca completa para estudiar en la Universidad de Berkeley el “Curso del músico modelo”. Es profesor de música (guitarra y voz). Ha participado en musicales como Jesus Super Estrella. Galardonado con 3 premios a Mejor Actor. <br> Ha colaborado con el Microteatro Acapulco",
-                    img: Gii
+                    img: Fe
                 },
                 {
                     name: "Rotz",

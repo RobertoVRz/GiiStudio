@@ -42,7 +42,7 @@
                 </div>
             </td>
             <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/ Flicker</div>
+                <div class="Table__title text-white absolute">/ Flickr</div>
                 <div class="text-dorado text-center">
                     <a
                         href="https://www.flickr.com/photos/giistudio/"

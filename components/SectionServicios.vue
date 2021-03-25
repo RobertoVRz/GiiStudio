@@ -36,7 +36,7 @@
                     <li>• Mastering</li>
                     <li>• Grabacion de discos</li>
                     <li>• Arreglos musicales</li>
-                    <li>•Grabaciones con musicos de sesión</li>
+                    <li>• Grabaciones con musicos de sesión</li>
                     <li>• Diseño sonoro</li>
                     <li>• Sonido directo</li>
                     <li>• Jingles para radio y TV</li>

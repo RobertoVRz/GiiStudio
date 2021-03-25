@@ -14,7 +14,7 @@
                 <p>/Gii Studio</p>
                 <br />
                 <p class="pl-5">
-                    Somos una casa productora contituída por un equipo de
+                    Somos una casa productora constituída por un equipo de
                     especialistas encargado de crear experiencias únicas e
                     inigualables. Para nosotros es importante que los
                     espectadores sean parte de la historia que queremos contar.
@@ -34,6 +34,13 @@
             />
         </div>
         <Table class="my-10 md:my-20" />
+        <section class="text-white w-screen">
+            <p class="ml-10">/Workshop</p>
+            <div class="flex flex-col justify-around items-center md:flex-row w-screen">
+                <img class="w-screen md:w-1/2 md:px-5 mt-10" src="~/assets/images/curso/cine.jpg" />
+                <img class="w-screen md:w-1/2 md:px-5 mt-10" src="~/assets/images/curso/foto.jpg" />
+            </div>
+        </section>
     </section>
 </template>
 
