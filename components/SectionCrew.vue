@@ -22,7 +22,10 @@
                     {{ miembro.name }}
                 </li>
             </ul>
-            <div class="flex flex-row justify-center items-center" v-if="info != null">
+            <div
+                class="flex flex-row justify-center items-center"
+                v-if="info != null"
+            >
                 <div class="Crew__info">
                     <p>{{ info.name }}</p>
                     <p>{{ info.puesto }}</p>
@@ -84,7 +87,7 @@ export default {
                     name: "Gii",
                     puesto: "CEO de Gii Studio y Gii Store ",
                     bio:
-                        "Cuenta con el Curso Cinema Lighting experience I y II <br /><br /> Ha participado como asistente de video en producciones televisivas, campañas publicitarias, series y cortometrajes. Los premios logrados en colaboración han sido: Hollywood Venus Award en el cortometraje “La Decisión de Lola”, publicación para la revista “Vogue Italia”, exposición de fotografía en el Palacio Municipal de San Pedro Cholula “Vino Naturalmente” con 14 obras de la serie los 3 tesoros del norte. <br /><br /> Ha colaborado con Roger Gonzalez Show, Red Jesus, Lali Espósito, Eva Vazquez, Claudia Quijaz; así como en La Voz México y México Tiene Talento.",
+                        "Cuenta con conocimientos en cine por parte de la Universidad de la Comunicación en la Ciudad de México (UC, 2017), en actuaría y sistemas computacionales por parte de la Universidad de las Américas Puebla (UDLAP, 2012). Cursó Cinema Lighting Experience I y II (HD LABs, 2020).<br /><br /> Ha participado como asistente de video en producciones televisivas, campañas publicitarias, series y cortometrajes. Los premios logrados en colaboración han sido: Hollywood Venus Award en el cortometraje “La Decisión de Lola”, publicación para la revista “Vogue Italia”, exposición de fotografía en el Palacio Municipal de San Pedro Cholula “Vino Naturalmente” con 14 obras de la serie los 3 tesoros del norte. <br /><br /> Ha colaborado con Roger Gonzalez Show, Red Jesus, Lali Espósito, Eva Vazquez, Claudia Quijaz; así como en La Voz México y México Tiene Talento.<br><br>Lanza su primer sencillo “Instinto” el 11 de Febrero del 2021, por 3KMKZ en la CDMX. ",
                     img: Gii
                 },
                 {
