@@ -35,24 +35,13 @@
 import ansiedad from "../assets/images/fotos/ansiedad.jpg";
 import belinda from "../assets/images/fotos/belinda.jpg";
 import blur from "../assets/images/fotos/blur.jpg";
-import corpus from "../assets/images/fotos/corpus.jpg";
 import homocosmico from "../assets/images/fotos/homocosmico.jpg";
-import mextt from "../assets/images/fotos/mextt.jpg";
 import pinup from "../assets/images/fotos/pinup.jpg";
 import bruxo from "../assets/images/fotos/bruxo.jpg";
 export default {
     data() {
         return {
-            fotos: [
-                ansiedad,
-                bruxo,
-                belinda,
-                blur,
-                homocosmico,
-                corpus,
-                mextt,
-                pinup
-            ]
+            fotos: [ansiedad, bruxo, belinda, blur, homocosmico, pinup]
         };
     },
     methods: {
@@ -65,7 +54,10 @@ export default {
 <style lang="scss">
 @import "@/assets/sass/app.scss";
 .Foto {
-    height: 3600px;
+    height: 3000px;
+    @include screen(tablet) {
+        height: 3300px;
+    }
     &__foto:hover {
         transform: scale(1.05);
         transition: 500ms;

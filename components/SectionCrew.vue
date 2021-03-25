@@ -22,7 +22,10 @@
                     {{ miembro.name }}
                 </li>
             </ul>
-            <div class="flex flex-row justify-center items-center" v-if="info != null">
+            <div
+                class="flex flex-row justify-center items-center"
+                v-if="info != null"
+            >
                 <div class="Crew__info">
                     <p>{{ info.name }}</p>
                     <p>{{ info.puesto }}</p>
@@ -71,6 +74,8 @@ import rotz from "../assets/images/crew/rotz.jpg";
 import santi from "../assets/images/crew/santi.jpg";
 import serch from "../assets/images/crew/serch.jpg";
 import fer from "../assets/images/crew/Fer.jpg";
+import Riccardo from "../assets/images/crew/Riccardo.jpg";
+import Fe from "../assets/images/crew/Fe.png";
 
 export default {
     data() {
@@ -82,7 +87,7 @@ export default {
                     name: "Gii",
                     puesto: "CEO de Gii Studio y Gii Store ",
                     bio:
-                        "Cuenta con el Curso Cinema Lighting experience I y II <br /><br /> Ha participado como asistente de video en producciones televisivas, campañas publicitarias, series y cortometrajes. Los premios logrados en colaboración han sido: Hollywood Venus Award en el cortometraje “La Decisión de Lola”, publicación para la revista “Vogue Italia”, exposición de fotografía en el Palacio Municipal de San Pedro Cholula “Vino Naturalmente” con 14 obras de la serie los 3 tesoros del norte. <br /><br /> Ha colaborado con Roger Gonzalez Show, Red Jesus, Lali Espósito, Eva Vazquez, Claudia Quijaz; así como en La Voz México y México Tiene Talento.",
+                        "Cuenta con conocimientos en cine por parte de la Universidad de la Comunicación en la Ciudad de México (UC, 2017), en actuaría y sistemas computacionales por parte de la Universidad de las Américas Puebla (UDLAP, 2012). Cursó Cinema Lighting Experience I y II (HD LABs, 2020).<br /><br /> Ha participado en producciones televisivas, campañas publicitarias, videoclips, películas series y cortometrajes como asistente de fotografía. Los premios logrados en colaboración con Santiago Barreiro y Eva Vázquez han sido: “Best Live Action Narrative” por el corto “Fuego en el Sótano” y premiado como “Mejor corto mexicano” en el GIFF siendo selección oficial para Latino Film Festival de Chicago. Su participación en la película Water Lola, en series en “La Bella y las Bestias” y Señora Acero T5. Ha publicado para revistas digitales “Vogue Italia”, “The Artist Community”. En 2018 tiene su primera exposición de fotografía en el Palacio Municipal de San Pedro Cholula “Vino Naturalmente” con 14 obras de la serie los 3 Tesoros del Norte.<br><br>Lanza su primer sencillo “Instinto” el 11 de Febrero del 2021, por 3KMKZ en la CDMX. ",
                     img: Gii
                 },
                 {
@@ -125,7 +130,7 @@ export default {
                     puesto: "Fotógrafo",
                     bio:
                         "Cursó la carrera de Cine y fotografía en el Centro de Capacitación Cinematográfica. Se ha especializado en film, cine, impresión de imágenes por métodos tradicionales y fine art printer.<br><br>Parte de su obra “Still Photographer” se ha impreso en revistas como: Im not perfect Zine (Portugal), RGSP Magazine (Barcelona), Nhüdes Magazine (Alemania), Nart Magazine (USA) y Vogue (Italia). Esta obra también fue parte de exposiciones individuales y colectivas en CDMX, Veracruz y Londres.",
-                    img: Gii
+                    img: Riccardo
                 },
                 {
                     name: "César",
@@ -160,7 +165,7 @@ export default {
                     puesto: "Productor musical",
                     bio:
                         "Especialista en producción musical, teatro e ingeniería electrónica. Obtuvo una beca completa para estudiar en la Universidad de Berkeley el “Curso del músico modelo”. Es profesor de música (guitarra y voz). Ha participado en musicales como Jesus Super Estrella. Galardonado con 3 premios a Mejor Actor. <br> Ha colaborado con el Microteatro Acapulco",
-                    img: Gii
+                    img: Fe
                 },
                 {
                     name: "Rotz",

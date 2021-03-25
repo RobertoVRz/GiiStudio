@@ -42,7 +42,7 @@
                     :class="videoActive == 5 ? 'SeccVideo--activeVideo' : ''"
                     @click="changeVideo(5)"
                 >
-                    Propuesta
+                    Animación
                 </li>
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
@@ -56,7 +56,7 @@
                     :class="videoActive == 7 ? 'SeccVideo--activeVideo' : ''"
                     @click="changeVideo(7)"
                 >
-                    Mi Pelicula 2
+                    Reel Drone
                 </li>
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
@@ -116,7 +116,7 @@ export default {
                     this.videoActive = video;
                     break;
                 case 7:
-                    this.videoSrc = "https://player.vimeo.com/video/510033581";
+                    this.videoSrc = "https://player.vimeo.com/video/524136439";
                     this.videoActive = video;
                     break;
                 case 8:
