@@ -31,6 +31,15 @@
                 >/ Foto</a
             >
             <a
+                href="#audio"
+                v-smooth-scroll="{
+                    duration: 2000,
+                    offset: -100
+                }"
+                class="Navbar__link text-white"
+                >/ Audio</a
+            >
+            <a
                 href="#servicios"
                 v-smooth-scroll="{
                     duration: 2000,
