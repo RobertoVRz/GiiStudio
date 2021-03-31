@@ -4,6 +4,7 @@
         <SectionProyect />
         <SectionVideo />
         <SectionFoto />
+        <SectionAudio />
         <SectionServicios />
         <SectionCrew />
         <SectionContact />

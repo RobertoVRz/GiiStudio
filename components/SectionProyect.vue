@@ -34,7 +34,7 @@
             />
         </div>
         <Table class="my-10 md:my-20" />
-        <section class="text-white w-screen">
+        <section v-if="false" class="text-white w-screen">
             <p class="ml-10">/Workshop</p>
             <div class="flex flex-col justify-around items-center md:flex-row w-screen">
                 <img class="w-screen md:w-1/2 md:px-5 mt-10" src="~/assets/images/curso/cine.jpg" />
