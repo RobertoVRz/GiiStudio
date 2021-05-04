@@ -13,7 +13,7 @@
             <div class="SectionProyect__textDiv mt-20  text-white">
                 <p>/Gii Studio</p>
                 <br />
-                <p class="pl-5">
+                <p class="pl-5 text-justify">
                     Somos una casa productora constituída por un equipo de
                     especialistas encargado de crear experiencias únicas e
                     inigualables. Para nosotros es importante que los
