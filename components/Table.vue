@@ -15,7 +15,7 @@
                 <div class="Table__title text-white absolute">/ Facebook</div>
                 <div class="text-dorado text-center">
                     <a
-                        href="https://www.instagram.com/giistudio/"
+                        href="https://www.facebook.com/giistudiofilms/"
                         target="_blank"
                         >@giistudiofilms</a
                     >
@@ -86,47 +86,16 @@
                 </div>
             </td>
             <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/Flick</div>
+                <div class="Table__title text-white absolute">/Venta de obras</div>
                 <div class="text-dorado text-center">
                     <a
-                        href="https://www.flickr.com/photos/giistudio/albums/72157693528518561"
-                        >@giistudio</a
+                        href="#"
+                        >Próximamente</a
                     >
                 </div>
             </td>
         </tr>
-        <tr class="border border-white">
-            <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/ Instinto</div>
-                <div class="text-dorado text-center">
-                    <a
-                        href="https://open.spotify.com/track/3EnA1E8ZXgQZyQyJhPVvP3?si=wok9-23KQ1i8UqBGr5OAjg"
-                        target="_blank"
-                        >Spotify</a
-                    >
-                </div>
-            </td>
-            <td class="border border-white relative">
-                <div class="Table__title text-white absolute">
-                    / Instinto
-                </div>
-                <div class="text-dorado text-center">
-                    <a
-                        href="https://music.apple.com/mx/album/instinto/1553072203?i=1553072206&amp;l=en"
-                        target="_blank"
-                        >Itunes</a
-                    >
-                </div>
-            </td>
-            <td class="border border-white relative">
-                <div class="Table__title text-white absolute">/Instinto</div>
-                <div class="text-dorado text-center">
-                    <a href="https://youtu.be/F5xArRmn2dc" target="_blank"
-                        >Youtube</a
-                    >
-                </div>
-            </td>
-        </tr>
+        
     </table>
 </template>
 

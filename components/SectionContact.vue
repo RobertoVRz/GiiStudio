@@ -14,7 +14,7 @@
                 <h1>
                     Escríbenos
                 </h1>
-                <a href="mailto: giistudioinfo@gmail.com">giistudioinfo@gmail.com</a>
+                <a href="mailto: giistudioinfo@gmail.com">info@giistudio.mx</a>
             </div>
         </div>
         <div

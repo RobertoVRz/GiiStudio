@@ -7,6 +7,8 @@
         <SectionAudio />
         <SectionServicios />
         <SectionCrew />
+        <SectionStore />
+        <SectionGaleria />
         <SectionContact />
     </div>
 </template>

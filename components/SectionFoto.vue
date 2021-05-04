@@ -35,13 +35,14 @@
 import ansiedad from "../assets/images/fotos/ansiedad.jpg";
 import belinda from "../assets/images/fotos/belinda.jpg";
 import blur from "../assets/images/fotos/blur.jpg";
-import homocosmico from "../assets/images/fotos/homocosmico.jpg";
+import monito from "../assets/images/fotos/monito.png";
 import pinup from "../assets/images/fotos/pinup.jpg";
 import bruxo from "../assets/images/fotos/bruxo.jpg";
+import bruxo1 from "../assets/images/fotos/bruxo1.jpg";
 export default {
     data() {
         return {
-            fotos: [ansiedad, bruxo, belinda, blur, homocosmico, pinup]
+            fotos: [ansiedad, blur, belinda, bruxo1, monito, pinup, bruxo]
         };
     },
     methods: {
@@ -56,7 +57,7 @@ export default {
 .Foto {
     height: 3000px;
     @include screen(tablet) {
-        height: 3300px;
+        height: 100%;
     }
     &__foto:hover {
         transform: scale(1.05);
@@ -65,7 +66,7 @@ export default {
     &__moreInfo {
         @include screen(tablet) {
             right: 15rem;
-            margin-top: -15rem;
+            margin-top: 5rem;
         }
     }
     &__arrow {

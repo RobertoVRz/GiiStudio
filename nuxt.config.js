@@ -7,7 +7,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: "GiiStudio",
+        title: "Gii Studio",
         meta: [
             { charset: "utf-8" },
             {

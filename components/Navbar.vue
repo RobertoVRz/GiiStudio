@@ -1,6 +1,6 @@
 <template>
     <div
-        class="Navbar bg-black h-10 w-screen fixed flex flex-row items-center justify-between md:h-20"
+        class="Navbar bg-black h-10 w-screen fixed flex flex-row items-center justify-center md:h-20"
     >
         <div
             class="Navbar__linksContainer hidden md:flex flex-row items-center justify-around"
@@ -58,18 +58,18 @@
                 >/ Crew</a
             >
 
-            <!--a
-                href="#galeria"
-                v-smooth-scroll="{ duration: 2000 }"
-                class="Navbar__link text-white"
-                >/ Galeria</a
-            >
             <a
-                href="#"
-                v-smooth-scroll="{ duration: 2000 }"
+                href="#store"
+                v-smooth-scroll="{ duration: 2000, offset: -100 }"
                 class="Navbar__link text-white"
                 >/ Gii Store</a
-            -->
+            >
+            <a
+                href="#galeria"
+                v-smooth-scroll="{ duration: 2000, offset: -100 }"
+                class="Navbar__link text-white"
+                >/ Galería de Arte</a
+            >
             <a
                 href="#contacto"
                 v-smooth-scroll="{ duration: 2000 }"

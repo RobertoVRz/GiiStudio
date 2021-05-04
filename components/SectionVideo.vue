@@ -14,7 +14,7 @@
                     :class="videoActive == 1 ? 'SeccVideo--activeVideo' : ''"
                     @click="changeVideo(1)"
                 >
-                    Demo Reel
+                    Demo Reel 
                 </li>
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
@@ -92,7 +92,7 @@ export default {
         changeVideo(video) {
             switch (video) {
                 case 1:
-                    this.videoSrc = "https://player.vimeo.com/video/323344032";
+                    this.videoSrc = "https://player.vimeo.com/video/539878914";
                     this.videoActive = video;
                     break;
                 case 2:
