@@ -23,7 +23,7 @@ export default {
     css: ["@/assets/sass/app.scss"],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: [{ src: '~/plugins/externalModules.js', ssr: false }],
+    plugins: [{ src: "~/plugins/externalModules.js", ssr: false }],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: true,
@@ -31,7 +31,8 @@ export default {
     // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
     buildModules: [
         // https://go.nuxtjs.dev/tailwindcss
-        "@nuxtjs/tailwindcss"
+        "@nuxtjs/tailwindcss",
+        "@nuxtjs/google-analytics"
     ],
     styleResources: {
         scss: ["@/assets/sass/app.scss"]
@@ -48,6 +49,10 @@ export default {
 
     // Axios module configuration: https://go.nuxtjs.dev/config-axios
     axios: {},
+
+    googleAnalytics: {
+        id: "GTM-MQ6CB38"
+    },
 
     // PWA module configuration: https://go.nuxtjs.dev/pwa
     pwa: {
