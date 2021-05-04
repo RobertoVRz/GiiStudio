@@ -19,12 +19,9 @@
     </section>
 </template>
 <script>
-import video from "../assets/video/giistore.mp4";
 export default {
     data() {
-        return {
-            video: video
-        };
+        return {};
     },
     methods: {}
 };
