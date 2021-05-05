@@ -4,10 +4,10 @@
         id="video"
     >
         <div class="SeccVideo__optionsDiv md:pl-10">
-            <h1 class="text-white">/Video</h1>
+            <h1 class="ml-5 text-white">/Video</h1>
             <br /><br />
             <ul
-                class="flex flex-row flex-wrap justify-between pr-2 text-white md:flex-col md:pl-5 md:mt-3"
+                class="flex flex-row flex-wrap justify-between p-2 text-white md:flex-col md:pl-5 md:mt-3"
             >
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
@@ -84,7 +84,7 @@
 export default {
     data() {
         return {
-            videoSrc: "https://player.vimeo.com/video/323344032",
+            videoSrc: "https://player.vimeo.com/video/539878914",
             videoActive: 1
         };
     },
