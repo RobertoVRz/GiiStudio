@@ -55,7 +55,7 @@ export default {
 <style lang="scss">
 @import "@/assets/sass/app.scss";
 .Foto {
-    height: 3000px;
+    height: 100%;
     @include screen(tablet) {
         height: 100%;
     }
