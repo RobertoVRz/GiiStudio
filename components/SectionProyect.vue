@@ -33,12 +33,21 @@
                 src="~/assets/images/icons/logoCircle.png"
             />
         </div>
-        <Table class="my-10 md:my-20" />
+        <Table class="hidden md:table my-10 md:my-20" />
+        <Tablemobile class=" md:hidden my-10 md:my-20" />
         <section v-if="false" class="text-white w-screen">
             <p class="ml-10">/Workshop</p>
-            <div class="flex flex-col justify-around items-center md:flex-row w-screen">
-                <img class="w-screen md:w-1/2 md:px-5 mt-10" src="~/assets/images/curso/cine.jpg" />
-                <img class="w-screen md:w-1/2 md:px-5 mt-10" src="~/assets/images/curso/foto.jpg" />
+            <div
+                class="flex flex-col justify-around items-center md:flex-row w-screen"
+            >
+                <img
+                    class="w-screen md:w-1/2 md:px-5 mt-10"
+                    src="~/assets/images/curso/cine.jpg"
+                />
+                <img
+                    class="w-screen md:w-1/2 md:px-5 mt-10"
+                    src="~/assets/images/curso/foto.jpg"
+                />
             </div>
         </section>
     </section>
@@ -69,6 +78,12 @@
             left: 8rem;
             top: 1rem;
             height: 200px;
+        }
+    }
+    &__tablita {
+        display: none;
+        @include screen(tablet) {
+            display: table;
         }
     }
 }
