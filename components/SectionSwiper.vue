@@ -63,22 +63,29 @@ export default {
 .SectionSwiper {
     &__title {
         font-size: 3rem;
-        margin-top: 8rem;
+        margin-top: 3rem;
         @include screen(tablet) {
-            font-size: 10rem;
-            margin-top: 8rem;
+            font-size: 8rem;
+            margin-top: 5rem;
         }
     }
     &__img {
-        height: 50vh;
+        height: 40vh;
         object-fit: contain;
+        @include screen(tablet) {
+            height: 50vh;
+        }
     }
 }
 .swiper-container {
-    height: 105%;
+    height: 120%;
     z-index: 0;
+    @include screen(tablet) {
+        height: 105%;
+    }
 }
 .swiper-pagination {
+    margin-bottom: 1rem;
     @include screen(tablet) {
         margin-bottom: -1rem !important;
     }
