@@ -14,7 +14,7 @@
                     :class="videoActive == 1 ? 'SeccVideo--activeVideo' : ''"
                     @click="changeVideo(1)"
                 >
-                    Demo Reel 
+                    Demo Reel
                 </li>
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
@@ -25,10 +25,24 @@
                 </li>
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
+                    :class="videoActive == 8 ? 'SeccVideo--activeVideo' : ''"
+                    @click="changeVideo(8)"
+                >
+                    Comedia
+                </li>
+                <li
+                    class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
                     :class="videoActive == 3 ? 'SeccVideo--activeVideo' : ''"
                     @click="changeVideo(3)"
                 >
                     Accion
+                </li>
+                <li
+                    class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
+                    :class="videoActive == 7 ? 'SeccVideo--activeVideo' : ''"
+                    @click="changeVideo(7)"
+                >
+                    Drone
                 </li>
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
@@ -39,10 +53,17 @@
                 </li>
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
-                    :class="videoActive == 5 ? 'SeccVideo--activeVideo' : ''"
-                    @click="changeVideo(5)"
+                    :class="videoActive == 9 ? 'SeccVideo--activeVideo' : ''"
+                    @click="changeVideo(9)"
                 >
-                    Animación
+                    Sobre Las Nubes
+                </li>
+                <li
+                    class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
+                    :class="videoActive == 10? 'SeccVideo--activeVideo' : ''"
+                    @click="changeVideo(10)"
+                >
+                    Hoy No
                 </li>
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
@@ -50,20 +71,6 @@
                     @click="changeVideo(6)"
                 >
                     Reflejos
-                </li>
-                <li
-                    class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
-                    :class="videoActive == 7 ? 'SeccVideo--activeVideo' : ''"
-                    @click="changeVideo(7)"
-                >
-                    Reel Drone
-                </li>
-                <li
-                    class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
-                    :class="videoActive == 8 ? 'SeccVideo--activeVideo' : ''"
-                    @click="changeVideo(8)"
-                >
-                    Reel Comedia Tele
                 </li>
             </ul>
         </div>
@@ -96,7 +103,7 @@ export default {
                     this.videoActive = video;
                     break;
                 case 2:
-                    this.videoSrc = "https://player.vimeo.com/video/322557835";
+                    this.videoSrc = "https://player.vimeo.com/video/323344032";
                     this.videoActive = video;
                     break;
                 case 3:
@@ -121,6 +128,14 @@ export default {
                     break;
                 case 8:
                     this.videoSrc = "https://player.vimeo.com/video/489103413";
+                    this.videoActive = video;
+                    break;
+                case 9:
+                    this.videoSrc = "https://www.youtube.com/embed/AQy0DbmFYS8";
+                    this.videoActive = video;
+                    break;
+                case 10:
+                    this.videoSrc = "https://www.youtube.com/embed/27hrJOiyMSM";
                     this.videoActive = video;
                     break;
             }
