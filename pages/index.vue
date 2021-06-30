@@ -1,6 +1,6 @@
 <template>
     <div>
-        <SectionSwiper />
+        <SectionHero />
         <SectionProyect />
         <SectionVideo />
         <SectionFoto />
