@@ -35,7 +35,7 @@
                     :class="videoActive == 3 ? 'SeccVideo--activeVideo' : ''"
                     @click="changeVideo(3)"
                 >
-                    Accion
+                    Acción
                 </li>
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
