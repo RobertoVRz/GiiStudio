@@ -34,9 +34,7 @@
 <script>
 import img1 from "~/assets/images/carousel/1.jpg";
 import img2 from "~/assets/images/carousel/2.jpg";
-import img3 from "~/assets/images/carousel/3.jpg";
 import img4 from "~/assets/images/carousel/4.jpg";
-import img5 from "~/assets/images/carousel/5.jpg";
 import ansiedad from "../assets/images/fotos/ansiedad.jpg";
 import belinda from "../assets/images/fotos/belinda.jpg";
 import blur from "../assets/images/fotos/blur.jpg";
