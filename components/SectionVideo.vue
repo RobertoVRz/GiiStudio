@@ -54,13 +54,20 @@
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
                     :class="videoActive == 9 ? 'SeccVideo--activeVideo' : ''"
+                    @click="changeVideo(11)"
+                >
+                    La Isla Bonita
+                </li>
+                <li
+                    class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
+                    :class="videoActive == 9 ? 'SeccVideo--activeVideo' : ''"
                     @click="changeVideo(9)"
                 >
                     Sobre Las Nubes
                 </li>
                 <li
                     class=" SeccVideo__linkVideo cursor-pointer ml-3 mb-5"
-                    :class="videoActive == 10? 'SeccVideo--activeVideo' : ''"
+                    :class="videoActive == 10 ? 'SeccVideo--activeVideo' : ''"
                     @click="changeVideo(10)"
                 >
                     Hoy No
@@ -136,6 +143,10 @@ export default {
                     break;
                 case 10:
                     this.videoSrc = "https://www.youtube.com/embed/27hrJOiyMSM";
+                    this.videoActive = video;
+                    break;
+                case 11:
+                    this.videoSrc = "https://www.youtube.com/embed/fTglsCWVOUg";
                     this.videoActive = video;
                     break;
             }

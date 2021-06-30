@@ -28,7 +28,8 @@
             >
                 <div class="Crew__info">
                     <p>{{ info.name }}</p>
-                    <p>{{ info.puesto }}</p><br>
+                    <p>{{ info.puesto }}</p>
+                    <br />
                     <p v-html="info.bio"></p>
                 </div>
                 <img class="Crew__img" :src="info.img" alt="crew Member" />
@@ -75,7 +76,6 @@ import santi from "../assets/images/crew/santi.jpg";
 import serch from "../assets/images/crew/serch.jpg";
 import fer from "../assets/images/crew/Fer.jpg";
 import Riccardo from "../assets/images/crew/Riccardo.jpg";
-import Fe from "../assets/images/crew/Fe.png";
 import Max from "../assets/images/crew/Max.jpg";
 import Roll from "../assets/images/crew/Rooll.jpg";
 
@@ -161,13 +161,6 @@ export default {
                     bio:
                         "<p class='text-justify'>Cuenta con experiencia en producción instrumental, creación de álbumes de E.P. Galardonado con el premio “artista favorito” Akua Ibom, Nigeria.<br><br>Ha colaborado con Dj-Zealscott, Gifted Queen G y M-jase.",
                     img: chijoki
-                },
-                {
-                    name: "FE",
-                    puesto: "Productor musical",
-                    bio:
-                        "<p class='text-justify'>Especialista en producción musical, teatro e ingeniería electrónica. Obtuvo una beca para estudiar en el curso “”El músico modelo” en la Universidad de Berkeley” (2016). Es profesor de música (guitarra y voz). <br /><br />Ha participado en obras y  musicales como Jesús Súper Estrella y Microteatro Acapulco.<br /><br />Galardonado con 3 premios a Mejor Actor.",
-                    img: Fe
                 },
                 {
                     name: "Roll",
