@@ -32,6 +32,11 @@
     </section>
 </template>
 <script>
+import img1 from "~/assets/images/carousel/1.jpg";
+import img2 from "~/assets/images/carousel/2.jpg";
+import img3 from "~/assets/images/carousel/3.jpg";
+import img4 from "~/assets/images/carousel/4.jpg";
+import img5 from "~/assets/images/carousel/5.jpg";
 import ansiedad from "../assets/images/fotos/ansiedad.jpg";
 import belinda from "../assets/images/fotos/belinda.jpg";
 import blur from "../assets/images/fotos/blur.jpg";
@@ -39,10 +44,29 @@ import monito from "../assets/images/fotos/monito.png";
 import pinup from "../assets/images/fotos/pinup.jpg";
 import bruxo from "../assets/images/fotos/bruxo.jpg";
 import bruxo1 from "../assets/images/fotos/bruxo1.jpg";
+import mexcal from "../assets/images/fotos/mexcal.jpg"
+import morra from "../assets/images/fotos/morra.jpg"
+import producto from "../assets/images/fotos/producto.jpg"
+import copas from "../assets/images/fotos/copas.jpg"
 export default {
     data() {
         return {
-            fotos: [ansiedad, blur, belinda, bruxo1, monito, pinup, bruxo]
+            fotos: [
+                ansiedad,
+                blur,
+                img1,
+                img2,
+                belinda,
+                monito,
+                img4,
+                bruxo1,
+                pinup,
+                producto,
+                morra,
+                mexcal,
+                copas,
+                bruxo,
+            ]
         };
     },
     methods: {
