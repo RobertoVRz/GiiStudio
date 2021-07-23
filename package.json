@@ -16,7 +16,7 @@
     "core-js": "^3.8.3",
     "node-sass": "4.14.0",
     "nuxt": "^2.14.12",
-    "swiper": "^6.4.11",
+    "swiper": "^6.8.0",
     "vue-responsive-video-background-player": "^1.2.2",
     "vue2-smooth-scroll": "^1.5.0"
   },
