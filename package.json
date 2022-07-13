@@ -17,7 +17,7 @@
     "node-sass": "4.14.0",
     "nuxt": "^2.14.12",
     "swiper": "^6.8.2",
-    "vue-responsive-video-background-player": "^1.2.2",
+    "vue-responsive-video-background-player": "^2.2.2",
     "vue2-smooth-scroll": "^1.5.0"
   },
   "devDependencies": {
